@@ -58,17 +58,17 @@
 
             <div>
                 <h4>photo_upload_form.html</h4>
-                <pre>{% with ""|add:project_root|add:"/photos/templates/photo_upload_form.html" as upform %}{% ssi upform %} {% endwith %}</pre>
+                <pre>{% with ""|add:project_root|add:"/photos/templates/photo_upload_form.html" as upform %}{% include upform %} {% endwith %}</pre>
             </div>
 
             <div>
                 <h4>urls.py</h4>
-                <pre>{% with ""|add:project_root|add:"/demo/urls.py" as urls %}{% ssi urls %} {% endwith %}</pre>
+                <pre>{% with ""|add:project_root|add:"/demo/urls.py" as urls %}{% include urls %} {% endwith %}</pre>
             </div>
 
             <div>
                 <h4>views.py</h4>
-                <pre>{% with ""|add:project_root|add:"/photos/views.py" as views %}{% ssi views %} {% endwith %}</pre>
+                <pre>{% with ""|add:project_root|add:"/photos/views.py" as views %}{% include views %} {% endwith %}</pre>
             </div>
         </div>
 

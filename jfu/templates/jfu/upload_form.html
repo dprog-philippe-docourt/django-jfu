@@ -100,7 +100,7 @@ Bootstrap CSS Toolkit styles
             {% block UPLOAD_FORM_BUTTON_BAR_ADD %}
             <span class="btn btn-success fileinput-button">
                 <i class="glyphicon glyphicon-plus"></i>
-                <span>Add files...</span>
+                <span>{% trans "Add files..." %}</span>
 
 
                 {% block UPLOAD_FORM_BUTTON_BAR_ADD_FILE_INPUT %}
@@ -139,15 +139,15 @@ Bootstrap CSS Toolkit styles
             {% block UPLOAD_FORM_BUTTON_BAR_CONTROL %}
             <button type="submit" class="btn btn-primary start">
                 <i class="glyphicon glyphicon-upload"></i>
-                <span>Start upload</span>
+                <span>{% trans "Start upload" %}</span>
             </button>
             <button type="reset" class="btn btn-warning cancel">
                 <i class="glyphicon glyphicon-ban-circle"></i>
-                <span>Cancel upload</span>
+                <span>{% trans "Cancel upload" %}</span>
             </button>
             <button type="button" class="btn btn-danger delete">
                 <i class="glyphicon glyphicon-trash"></i>
-                <span>Delete</span>
+                <span>{% trans "Delete" %}</span>
             </button>
             <input type="checkbox" class="toggle">
             {% endblock %}
@@ -264,7 +264,7 @@ Bootstrap CSS Toolkit styles
             {{ JQ_OPEN }} if (!i && !o.options.autoUpload) { {{ JQ_CLOSE }}
                 <button class="btn btn-primary start" disabled>
                     <i class="glyphicon glyphicon-upload"></i>
-                    <span>Start</span>
+                    <span>{% trans "Start" %}</span>
                 </button>
             {{ JQ_OPEN }} } {{ JQ_CLOSE }}
             {% endblock %}
@@ -273,7 +273,7 @@ Bootstrap CSS Toolkit styles
             {{ JQ_OPEN }} if (!i) { {{ JQ_CLOSE }}
                 <button class="btn btn-warning cancel">
                     <i class="glyphicon glyphicon-ban-circle"></i>
-                    <span>Cancel</span>
+                    <span>{% trans "Cancel" %}</span>
                 </button>
             {{ JQ_OPEN }} } {{ JQ_CLOSE }}
             {% endblock %}

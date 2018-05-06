@@ -1,3 +1,5 @@
+Note: This project is forked from https://github.com/jpic/django-jfu. I
+
 ----------------------------------------------------
 Django-JFU - A Django Library for jQuery File Upload 
 ----------------------------------------------------

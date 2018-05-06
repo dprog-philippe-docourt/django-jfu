@@ -53,22 +53,22 @@
             <div>
                 <h4>Template</h4>
 <pre>{% verbatim %}{% load jfutags %} 
-{% jfu 'photo_upload_form.html' %} {% endverbatim %}</pre>
+{% jfu 'photo_upload_form.html' %}{% endverbatim %}</pre>
             </div>
 
             <div>
                 <h4>photo_upload_form.html</h4>
-                <pre>{% with ""|add:project_root|add:"/photos/templates/photo_upload_form.html" as upform %}{% include upform %} {% endwith %}</pre>
+                See code in "demo/photos/templates/photo_upload_form.html"
             </div>
 
             <div>
                 <h4>urls.py</h4>
-                <pre>{% with ""|add:project_root|add:"/demo/urls.py" as urls %}{% include urls %} {% endwith %}</pre>
+                See code in "demo/demo/urls.py"
             </div>
 
             <div>
                 <h4>views.py</h4>
-                <pre>{% with ""|add:project_root|add:"/photos/views.py" as views %}{% include views %} {% endwith %}</pre>
+                See code in "demo/views.py"
             </div>
         </div>
 
@@ -79,7 +79,7 @@
    <hr>
 
   <footer>
-    <p>&copy; <a href='http://cidola.com'>Cidola</a> 2013 </p>
+    <p>&copy; <a href='http://cidola.com'>Cidola</a> 2013</p>
   </footer>
 
 </body>

@@ -5,6 +5,8 @@ pip install django~=1.11
 pip install -e ../
 
 mkdir media static
-python manage.py syncdb --noinput
+python manage.py makemigrations
+python manage.py makemigrations photos
+python manage.py migrate
 python manage.py collectstatic --noinput
 echo "Setup Complete."

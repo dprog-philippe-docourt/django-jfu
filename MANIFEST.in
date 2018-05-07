@@ -3,3 +3,4 @@ include README.rst
 include CHANGELOG
 recursive-include jfu/static *
 recursive-include jfu/templates *
+recursive-include jfu/locale *

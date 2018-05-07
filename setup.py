@@ -6,12 +6,12 @@ setup(
     version=jfu.__version__,
     author=jfu.__author__,
     author_email="alem@cidola.com",
+    maintainer='Philippe Docourt',
     description=jfu.__desc__,
     license=jfu.__licence__,
     keywords="django, jquery file upload, multi-upload",
     url="http://packages.python.org/jfu",
     packages=find_packages(),
-    include_package_data=True,
     long_description=open('README.rst').read(),
     classifiers=[
         'Environment :: Web Environment',

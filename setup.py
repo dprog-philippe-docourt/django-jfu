@@ -12,6 +12,7 @@ setup(
     keywords="django, jquery file upload, multi-upload",
     url="http://packages.python.org/jfu",
     packages=find_packages(),
+    include_package_data=True,
     long_description=open('README.rst').read(),
     classifiers=[
         'Environment :: Web Environment',

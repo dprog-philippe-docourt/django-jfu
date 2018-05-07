@@ -348,13 +348,13 @@ Bootstrap CSS Toolkit styles
                             data-xhr-fields='{"withCredentials":true}'{% }
                         {{ JQ_CLOSE }}>
                     <i class="glyphicon glyphicon-trash"></i>
-                    <span>Delete</span>
+                    <span>{% trans "Delete" %}</span>
                 </button>
                 <input type="checkbox" name="delete" value="1" class="toggle">
             {{ JQ_OPEN }} } else { {{ JQ_CLOSE }}
                 <button class="btn btn-warning cancel">
                     <i class="glyphicon glyphicon-ban-circle"></i>
-                    <span>Cancel</span>
+                    <span>{% trans "Cancel" %}</span>
                 </button>
             {{ JQ_OPEN }} } {{ JQ_CLOSE }}
         </td>
